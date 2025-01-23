@@ -19,6 +19,10 @@ public class Estudiante {
 
     }
 
+    public Estudiante(String nombre) {
+        this.nombre = nombre;
+    }
+
     public String getNombre() {
         return nombre;
     }
